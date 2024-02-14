@@ -2,7 +2,7 @@ import discord
 import schedule
 import asyncio
 
-TOKEN = 'YOUR_DISCORD_BOT_TOKEN'
+TOKEN = process.env.token
 ROLE_ID = 123456789012345678
 CHANNEL_ID = 123456789012345678
 
